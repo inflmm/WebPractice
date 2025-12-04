@@ -447,6 +447,9 @@ body {
     opacity: 0.7;
     transition: 0.3s;
 }
+.section_sixth-box:hover::before{
+    opacity: 0.3;
+}
 .section_sixth-box-8{
     align-items: center;
     text-align: center;
@@ -465,12 +468,14 @@ body {
     padding: 15px;
     padding-bottom: 10px;
     font-size: 30px;
+    position: relative;
 }
 .section_sixth-textbox{
     color: white;
     font-size: 19px;
     margin: 20px;
     padding: 15px;
+    position: relative;
 }
 .section_sixth-learnmore{
     color: white;
@@ -541,12 +546,14 @@ body {
 .section_seventh-textbox{
     font-size: 25px;
     color: white;
-    margin: 20px
+    margin: 20px;
+    position: relative;
 }
 .section_seventh-textbox2{
     font-size: 15px;
     color: white;
-    margin: 10px
+    margin: 10px;
+    position: relative;
 }
 
 .section_eighth{
